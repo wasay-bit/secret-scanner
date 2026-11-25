@@ -1,0 +1,15 @@
+{
+  "name": "secret-scanner",
+  "version": "1.0.0",
+  "description": "Finds likely secrets (API keys, tokens, private keys, hard-coded passwords) in files. Output is redacted.",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "scan": "node cli.js",
+    "demo": "node examples/demo.js",
+    "test": "node --test"
+  }
+}
